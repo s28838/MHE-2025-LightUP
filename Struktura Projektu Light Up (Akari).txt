@@ -1,0 +1,25 @@
+akari_solver/
+│
+├── solvers/
+│   ├── brute_force.py
+│   ├── hill_climb.py
+│   ├── tabu.py
+│   ├── simulated_annealing.py
+│   ├── genetic.py
+│   ├── island_ga.py
+│   ├── evolutionary_strategy.py
+│
+├── core/
+│   ├── board.py           # Reprezentacja planszy i operacje na niej
+│   ├── solution.py        # Rozwiązanie, funkcja celu, sąsiedztwo, walidacja
+│
+├── cli/
+│   ├── run_solver.py      # Główny program CLI
+│
+├── data/
+│   └── examples/          # Przykładowe instancje plansz
+│
+├── experiments/
+│   └── compare_methods.py # Eksperymenty porównawcze
+│
+└── README.md
