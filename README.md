@@ -14,16 +14,3 @@
 
 ---
 
-## 🧠 Implementowane algorytmy
-
-Znajdują się w katalogu `solvers/`:
-
-- `brute_force.py` – przeszukiwanie pełne
-- `hill_climb.py` – wspinaczka górska
-- `tabu.py` – tabu search
-- `simulated_annealing.py` – symulowane wyżarzanie
-- `genetic.py` – algorytm genetyczny
-- `island_ga.py` – algorytm wyspowy (wiele populacji)
-- `evolutionary_strategy.py` – strategia ewolucyjna
-
----
